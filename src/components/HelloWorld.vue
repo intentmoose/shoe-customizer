@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <a-scene gltf-model="dracoDecoderPath: " >
+    <a-scene gltf-model="dracoDecoderPath: "  vr-mode-ui="enabled: false">
       <a-entity
         scale="50 50 50"
         gltf-model="url(shoe.glb)"
