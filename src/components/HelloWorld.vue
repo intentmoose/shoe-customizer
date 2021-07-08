@@ -96,8 +96,9 @@ export default {
   position: absolute;
   bottom: 0;
   display: flex;
-  width: 100vw;
+  flex-direction: column;
   overflow-x: auto;
+  padding: 10px;
 }
 .color-change-btn {
   position: relative;
@@ -106,7 +107,7 @@ export default {
   height: 60px;
   border-radius: 10px;
   border: 2px solid black;
-
+margin-bottom: 10px;
   input {
     width: 0;
     height: 0;
